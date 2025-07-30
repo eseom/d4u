@@ -1,0 +1,16 @@
+{
+  "name": "d4u",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "node-ssh": "^13.2.1"
+  },
+  "packageManager": "bun@1.2.18",
+  "devDependencies": {
+    "@types/blessed": "^0.1.25",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  }
+}
